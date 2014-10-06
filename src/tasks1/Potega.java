@@ -16,7 +16,4 @@ public class Potega {
         c= c %10;
         return c;
     }
-//    public static string potegaLast(int a,int b){
-//        a
-//    }
 }
