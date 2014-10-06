@@ -35,6 +35,7 @@ public class Tasks1 {
     public static void main(String[] args) {
 
         pierwsze(10000);
+        System.out.println(Potega.potegaLast(5.0, 2.0));
     }
 }
 
