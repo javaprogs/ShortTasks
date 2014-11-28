@@ -23,6 +23,7 @@ public class Project11 {
                 k++;
            }
        }
+       int finalResult;
        int resultLeftRight = 0;
        int wyniktemp;
         for(int i=0;i<20;i++){
@@ -33,8 +34,8 @@ public class Project11 {
                         }
             }
         }
-        System.out.println(resultLeftRight);
-        int resultUpDown = 0;
+        finalResult = resultLeftRight;
+            int resultUpDown = 0;
         int temp1;
         for(int i=0;i<20;i++){
             for(int j=0;j<16;j++){
@@ -44,7 +45,10 @@ public class Project11 {
                         }
             }
         }
-        System.out.println(resultUpDown);
+        if(finalResult<resultUpDown){
+            finalResult=resultUpDown;
+        }
+
         int resultDiagonal=0;
         int temp2;
         for(int i=0;i<16;i++){
@@ -55,7 +59,9 @@ public class Project11 {
                         }
             }
         }
-        System.out.println(resultDiagonal);
+                if(finalResult<resultDiagonal){
+            finalResult=resultDiagonal;
+        }
                 int resultDiagonalLeft=0;
         int temp3;
         for(int i=0;i<16;i++){
@@ -66,7 +72,13 @@ public class Project11 {
                         }
             }
         }
-        System.out.println(resultDiagonalLeft);
+         if(finalResult<resultDiagonalLeft){
+            finalResult=resultDiagonalLeft;
+                    System.out.println(finalResult);
+        }
+
+          
+        
         
     }
 }
