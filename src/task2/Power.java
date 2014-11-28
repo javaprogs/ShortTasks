@@ -11,7 +11,7 @@ import static java.lang.Math.pow;
 
 public class Power {
    
-   public static void main(String[] args){
+   public static void power(){
     int a = 2;
     int b = 16;
     int liczba=(int)pow(a,b);

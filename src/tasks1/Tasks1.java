@@ -32,9 +32,6 @@ public class Tasks1 {
         }
     }
 
-    public static void main(String[] args) {
-
-        pierwsze(10000);
-    }
+  
 }
 
