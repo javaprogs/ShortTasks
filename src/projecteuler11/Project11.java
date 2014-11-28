@@ -38,7 +38,7 @@ public class Project11 {
             int resultUpDown = 0;
         int temp1;
         for(int i=0;i<20;i++){
-            for(int j=0;j<16;j++){
+            for(int j=0;j<17;j++){
                 temp1= array[j][i]*array[j+1][i]*array[j+2][i]*array[j+3][i];
                         if (temp1>resultUpDown){
                             resultUpDown=temp1;
@@ -51,8 +51,8 @@ public class Project11 {
 
         int resultDiagonal=0;
         int temp2;
-        for(int i=0;i<16;i++){
-            for(int j=0;j<16;j++){
+        for(int i=0;i<17;i++){
+            for(int j=0;j<17;j++){
                 temp2= array[i][j]*array[i+1][j+1]*array[i+2][j+2]*array[i+3][j+3];
                         if (temp2>resultDiagonal){
                             resultDiagonal=temp2;
@@ -64,8 +64,8 @@ public class Project11 {
         }
                 int resultDiagonalLeft=0;
         int temp3;
-        for(int i=0;i<16;i++){
-            for(int j=0;j<16;j++){
+        for(int i=0;i<17;i++){
+            for(int j=0;j<17;j++){
                 temp3= array[i][j+3]*array[i+1][j+2]*array[i+2][j+1]*array[i+3][j];
                         if (temp3>resultDiagonalLeft){
                             resultDiagonalLeft=temp3;
