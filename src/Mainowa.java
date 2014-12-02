@@ -1,5 +1,7 @@
 
-import projecteuler11.Project11;
+import projecteuler.Project11;
+import projecteuler.Project12R;
+import projecteuler.Project12;
 import task2.Power;
 import tasks1.Tasks1;
 
@@ -15,12 +17,12 @@ import tasks1.Tasks1;
 
 public class Mainowa {
      public static void main(String[] args) {
-         
-         Power.power();
-         System.out.println("*****************************");
-         Tasks1.pierwsze(10000);
-         System.out.println("*****************************");
-         Project11.euler11();
-     
+//         
+//         Power.power();
+//         System.out.println("*****************************");
+//         Tasks1.pierwsze(10000);
+//         System.out.println("*****************************");
+//         Project11.euler11();
+         System.out.println(Project12.findFirstNumberWith500Divisors());
      }
 }
