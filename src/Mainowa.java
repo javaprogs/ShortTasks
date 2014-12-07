@@ -2,6 +2,8 @@
 import projecteuler.Project11;
 import projecteuler.Project12R;
 import projecteuler.Project12;
+import projecteuler.Project13;
+import projecteuler.Project14;
 import task2.Power;
 import tasks1.Tasks1;
 
@@ -23,6 +25,10 @@ public class Mainowa {
 //         Tasks1.pierwsze(10000);
 //         System.out.println("*****************************");
 //         Project11.euler11();
-         System.out.println(Project12.findFirstNumberWith500Divisors());
+        
+//         System.out.println(Project12.findFirstNumberWith500Divisors());
+////         Project13.euler13();
+         System.out.println(Project14.searchTheLargestChain());
+         
      }
 }

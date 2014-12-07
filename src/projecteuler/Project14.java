@@ -13,8 +13,9 @@ public class Project14 {
 
     static int counter = 1;
 
-    public static int method(int result) {
-      while(result!=1){
+    public static int method(long result) {
+        counter = 1;
+        while (result != 1) {
             if (result % 2 == 0) {
                 result = result / 2;
             } else {
@@ -22,21 +23,22 @@ public class Project14 {
             }
             counter++;
         }
-        
+
         return counter;
     }
     static int result;
-    static int finalResult=0;
-    public static int searchTheLargestChain(){
- 
-    for (int i =1; i<=1000000;i++){
-    result = method(i);
+    static int finalResult = 0;
 
-    
-    if (result > finalResult){
-        finalResult=result;
-       
-    } 
-}       return finalResult;
-}
+    public static int searchTheLargestChain() {
+
+        for (int i = 1; i <= 1000000; i++) {
+            result = method(i);
+
+            if (result > finalResult) {
+                finalResult = result;
+
+            }
+        }
+        return finalResult;
+    }
 }
